@@ -12,7 +12,6 @@ td{
     border: 1px black solid;
 }
 
-@media screen and (max-width:700px) {
 ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -20,7 +19,8 @@ ul{
 li{
     list-style-type: none;
     text-decoration: none;
-    background-color: aquamarine;
+    background-color:bisque;
+    text-align: center;
 }
 a{
     text-decoration: none;
@@ -31,7 +31,6 @@ a{
     body {
         background-color: rgb(144, 174, 238);
         width: 100%;
-        font-size: 3vw;
       }
     main {
         
