@@ -50,7 +50,7 @@ main{
     grid-template-areas: 
     "h h h"
     "n n n"
-    "as as ar"
+    "ar ar ar"
     "f f f";
 }
 header {
@@ -62,33 +62,11 @@ nav {
 article {
     grid-area: ar;
 }
-aside {
-    grid-area: as;
-}
+
 footer {
     grid-area: f;
 }
 
-@media screen and (min-width: 700px) {
-    body {
-        background-color: rgb(144, 174, 238);
-        width: 100%;
-      }
-    main {
-        
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas: 
-        "h h"
-        "n n"
-        "as ar"
-        "f f";
-    } 
-    article{
-      
-        grid-template-columns: 1fr 1fr ;
-       
-    }
-}
 @media screen and (min-width: 700px) {
   body {
     background-color: rgb(144, 174, 238);
