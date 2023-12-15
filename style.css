@@ -13,6 +13,21 @@ td{
 }
 
 @media screen and (max-width:700px) {
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+    background-color: aquamarine;
+}
+a{
+    text-decoration: none;
+}
+
+
+@media screen and (min-width: 700px) {
     body {
         background-color: rgb(144, 174, 238);
         width: 100%;
