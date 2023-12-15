@@ -2,8 +2,25 @@
     margin: 0;
     padding: 0;
 }
+main{
+    width: 90%;
+    margin:auto;
+    background-color: antiquewhite;
+}
+header{
+    background-color:aliceblue;
+    font-size: 3vw;
+    text-align: center;
+}
+footer{
+    background-color:aliceblue;
+}
+article{
+    margin: 10px;
+}
 table{
     border: 1px black solid;
+    margin:auto;
 }
 th{
     border: 1px black solid;
@@ -20,7 +37,7 @@ ul{
 li{
     list-style-type: none;
     text-decoration: none;
-    background-color:bisque;
+    background-color:aliceblue;
     text-align: center;
 }
 a{
