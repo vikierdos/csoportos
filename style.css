@@ -1,89 +1,83 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-main{
-    width: 90%;
-    margin:auto;
-    background-color: antiquewhite;
+main {
+  width: 90%;
+  margin: auto;
+  background-color: antiquewhite;
 }
-header{
-    background-color:aliceblue;
-    font-size: 3vw;
-    text-align: center;
+header {
+  background-color: aliceblue;
+  font-size: 3vw;
+  text-align: center;
 }
-footer{
-    background-color:aliceblue;
+footer {
+  background-color: aliceblue;
 }
-article{
-    margin: 10px;
+article {
+  margin: 10px;
 }
-table{
-    border: 1px black solid;
-    margin:auto;
+table {
+  border: 1px black solid;
+  margin: auto;
 }
-th{
-    border: 1px black solid;
-    margin:auto;
+th {
+  border: 1px black solid;
+  margin: auto;
 }
-td{
-    border: 1px black solid;
-}
-
-ul{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-li{
-    list-style-type: none;
-    text-decoration: none;
-    background-color:aliceblue;
-    text-align: center;
-}
-a{
-    text-decoration: none;
+td {
+  border: 1px black solid;
 }
 
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+li {
+  list-style-type: none;
+  text-decoration: none;
+  background-color: aliceblue;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
 
 @media screen and (min-width: 700px) {
-    body {
-        background-color: rgb(144, 174, 238);
-        width: 100%;
-      }
-    main {
-        
-        grid-template-columns: 3fr 1fr;
-        grid-template-areas: 
-        "h h"
-        "n n"
-        "as ar"
-        "f f";
-    } 
-    article{
-      
-        grid-template-columns: 1fr 1fr ;
-       
-    }
+  body {
+    background-color: rgb(144, 174, 238);
+    width: 100%;
+  }
+  main {
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+      "h h"
+      "n n"
+      "as ar"
+      "f f";
+  }
+  article {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
-@media screen and (max-width:400px) {
-    body {
-        background-color: rgb(144, 174, 238);
-        width: 100%;
-        font-size: 5vw;
-      }
-      main {
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "h"
-        "n"
-        "ar"
-        "as"
-        "f";
-      }
-      article{
-      
-        grid-template-columns: 1fr ;
-       
-    }
+@media screen and (max-width: 400px) {
+  body {
+    background-color: rgb(144, 174, 238);
+    width: 100%;
+    font-size: 5vw;
+  }
+  main {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "h"
+      "n"
+      "ar"
+      "as"
+      "f";
+  }
+  article {
+    grid-template-columns: 1fr;
+  }
 }
